@@ -3,28 +3,28 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "Platform-Test"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "Platform-platform-Test"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "Platform-identity-Test"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "Platform-management-Test"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "Platform-connectivity-Test"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "Platform-landingzones-Test"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
     },
     "enableAMBAIdentity": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBALandingZone": {
       "value": "Yes"
@@ -42,7 +42,7 @@
       "value": "Yes"
     },
     "telemetryOptOut": {
-      "value": "No"
+      "value": "Yes"
     },
     "bringYourOwnUserAssignedManagedIdentity": {
       "value": "No"
@@ -51,16 +51,16 @@
       "value": ""
     },
     "userAssignedManagedIdentityName": {
-      "value": "id-amba-prod-001"
+      "value": "msi-cps-platform-amba"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "d0c5554b-e6a7-47d7-b5a6-0171c9c8f7d9"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-cps-platform-amba"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "uksouth"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
@@ -68,7 +68,7 @@
       }
     },
     "ALZMonitorActionGroupEmail": {
-      "value": ""
+      "value": "cloud-platform-security-alerts@gov.scot"
     },
     "ALZLogicappResourceId": {
       "value": ""
@@ -92,7 +92,7 @@
       "value": ""
     },
     "BYOActionGroup": {
-      "value": ""
+      "value": "RecommendedAlertRules-AG-1"
     },
     "BYOAlertProcessingRule": {
       "value": ""
