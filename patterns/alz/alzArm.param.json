@@ -9,7 +9,7 @@
       "value": "Platform-platform-Test"
     },
     "IdentityManagementGroup": {
-      "value": ""
+      "value": "Platform-identity-Test"
     },
     "managementManagementGroup": {
       "value": "Platform-management-Test"
@@ -18,16 +18,16 @@
       "value": "Platform-connectivity-Test"
     },
     "LandingZoneManagementGroup": {
-      "value": ""
+      "value": "Platform-landingzones-Test"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
     },
     "enableAMBAIdentity": {
-      "value": "No"
+      "value": "Yes"
     },
     "enableAMBALandingZone": {
-      "value": "No"
+      "value": "Yes"
     },
     "enableAMBAManagement": {
       "value": "Yes"
@@ -68,7 +68,7 @@
       }
     },
     "ALZMonitorActionGroupEmail": {
-      "value": "dimitris.topouzis@gov.scot"
+      "value": ""
     },
     "ALZLogicappResourceId": {
       "value": ""
@@ -92,7 +92,7 @@
       "value": ""
     },
     "BYOActionGroup": {
-      "value": "RecommendedAlertRules-AG-1"
+      "value": "/subscriptions/d0c5554b-e6a7-47d7-b5a6-0171c9c8f7d9/rg-cps-platform-alerts/providers/microsoft.insights/actiongroups/ambaActionGroup"
     },
     "BYOAlertProcessingRule": {
       "value": ""
