@@ -9,7 +9,7 @@
       "value": "Platform-platform-Test"
     },
     "IdentityManagementGroup": {
-      "value": "Platform-identity-Test"
+      "value": ""
     },
     "managementManagementGroup": {
       "value": "Platform-management-Test"
@@ -18,7 +18,7 @@
       "value": "Platform-connectivity-Test"
     },
     "LandingZoneManagementGroup": {
-      "value": "Platform-landingzones-Test"
+      "value": ""
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -27,7 +27,7 @@
       "value": "No"
     },
     "enableAMBALandingZone": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAManagement": {
       "value": "Yes"
@@ -39,7 +39,7 @@
       "value": "Yes"
     },
     "enableAMBAHybridVM": {
-      "value": "Yes"
+      "value": "No"
     },
     "telemetryOptOut": {
       "value": "Yes"
@@ -57,7 +57,7 @@
       "value": "d0c5554b-e6a7-47d7-b5a6-0171c9c8f7d9"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-cps-platform-amba"
+      "value": "rg-cps-platform-alerts"
     },
     "ALZMonitorResourceGroupLocation": {
       "value": "uksouth"
@@ -68,7 +68,7 @@
       }
     },
     "ALZMonitorActionGroupEmail": {
-      "value": "cloud-platform-security-alerts@gov.scot"
+      "value": "dimitris.topouzis@gov.scot"
     },
     "ALZLogicappResourceId": {
       "value": ""
