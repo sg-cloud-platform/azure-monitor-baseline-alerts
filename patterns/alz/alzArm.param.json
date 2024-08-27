@@ -57,7 +57,7 @@
       "value": "d0c5554b-e6a7-47d7-b5a6-0171c9c8f7d9"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-cps-platform-alerts"
+      "value": "rg-amba-alerts"
     },
     "ALZMonitorResourceGroupLocation": {
       "value": "uksouth"
@@ -68,7 +68,7 @@
       }
     },
     "ALZMonitorActionGroupEmail": {
-      "value": ""
+      "value": "dimitris.topouzis@gov.scot"
     },
     "ALZLogicappResourceId": {
       "value": ""
@@ -92,7 +92,7 @@
       "value": ""
     },
     "BYOActionGroup": {
-      "value": "/subscriptions/d0c5554b-e6a7-47d7-b5a6-0171c9c8f7d9/rg-cps-platform-alerts/providers/microsoft.insights/actiongroups/ambaActionGroup"
+      "value": "" ///subscriptions/d0c5554b-e6a7-47d7-b5a6-0171c9c8f7d9/resourceGroups/rg-cps-platform-alerts/providers/microsoft.insights/actiongroups/ambaActionGroup
     },
     "BYOAlertProcessingRule": {
       "value": ""
